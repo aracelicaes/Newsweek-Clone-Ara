@@ -1,6 +1,22 @@
 #topNav {
-  display: inline-flex;
   background-color: #f72210;
-  color: white;
-  font-weight: 700;
+}
+
+ #logo {
+  margin-top: -8px;
+  padding: 0;
  }
+
+ .signInSubscribe {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+}
+
+#whiteNav {
+  background-color: white;
+  color: black;
+}
+
