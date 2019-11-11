@@ -11,7 +11,6 @@ header {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
 .header-top {
   margin-top: 35px;
   margin-bottom: 10px;
@@ -23,7 +22,6 @@ header {
 }
 
 .brand img {
-  width: 390px;
   height: 60px;
   margin: 10px auto 0;
 }
@@ -76,20 +74,17 @@ header .lk-2:hover {
 
   #headerLogo {
     margin-top: -7px;
-    width: 396px;
     height: 72px;
-    background-image: url(/images/newsWeekLogoLarge.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   #topLogo {
     width: 100%;
     height: 100%;
-    
   }
 
   #whiteNavPart {
+    display: flex;
+    flex-direction: row;
     height: 56px;
     background-color: white;
     padding: 0;
@@ -100,6 +95,7 @@ header .lk-2:hover {
     justify-content: space-around;
     align-items: center;
     padding: 0;
+    overflow: hidden;
   }
 
   #exceptHere {
@@ -114,7 +110,7 @@ header .lk-2:hover {
     font-weight: bold;
     font-size: 21px;
     border-left: 1px solid #d9d9d9;
-    padding: 0 15px;
+    padding: 0 8px;
   }
 
   .topLi:hover {
@@ -122,12 +118,18 @@ header .lk-2:hover {
     color: #f72210;    
   }
 
-  input {
-    width: 60px;
+  #searchIt {
+    width: 75px;
     height: 54px;
-    /* border: none; */
+    border: none;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 18px;
+    background-image: url(/images/searchIcon.png);
+    background-repeat: no-repeat;
+    background-position: right;
   }
-
+  
   #littleRedBox {
     width: 75px;
     height: 20px;
@@ -137,7 +139,14 @@ header .lk-2:hover {
     -o-transform: skew(46deg, 0deg);
     -ms-transform: skew(46deg, 0deg);
     transform: skew(46deg, 0deg);
+    position: relative;
+    top: -28px;
+    left: 27px;
   }
 
+  #burguer {
+    position: absolute;
+    visibility: hidden;
+  }  
 
 }
