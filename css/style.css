@@ -45,7 +45,6 @@ header .lk-2:hover {
   height: 26px;
 }
 
-
 /* LARGE */
 
 @media only screen and (min-width: 992px) {
@@ -115,7 +114,7 @@ header .lk-2:hover {
 
   .topLi:hover {
     text-decoration: none;
-    color: #f72210;    
+    color: #f72210;
   }
 
   #searchIt {
@@ -129,7 +128,7 @@ header .lk-2:hover {
     background-repeat: no-repeat;
     background-position: right;
   }
-  
+
   #littleRedBox {
     width: 75px;
     height: 20px;
@@ -147,6 +146,6 @@ header .lk-2:hover {
   #burguer {
     position: absolute;
     visibility: hidden;
-  }  
+  }
 
 }
