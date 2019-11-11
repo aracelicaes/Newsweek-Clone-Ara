@@ -8,62 +8,56 @@
 
   <!-- CSS BOOSTRAP LINK -->
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  
+
   <!-- MY CSS LINK -->
   <link href='css/style.css' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <main>
-    <!-- HEADER -->
-        <header class="page-header container-fluid">
-          <div class="row header-top">
-              <div class="d-flex justify-content-start col-6">
-                <span id="date" class="text-white">Wed, Nov 06, 2019</span>
-              </div>
-              <!-- <div class=""> -->
-                <a class="col-4 lk-2 text-white d-flex justify-content-end" href="#">SIGN IN</a>
-                <a class="lk-3 col-2 d-flex justify-content-center" href="#">SUBSCRIBE</a>
-                <div class="input-group-apend">
-                  <a class=""></a>
-                </div>
-              <!-- </div> -->
-            <!-- <div class="position-absolute">
-              <a class="brand" href="#"><img src="images/newsWeekLogoLarge.JPG"></a>
-            </div> -->
-          </div>     
+  <!-- HEADER -->
+  <header class="page-header container-fluid">
+    <div class="row d-flex" id="header-top">
+      <div class="d-flex justify-content-start col-lg-4 text-white" id="date">
+        Wed, Nov 06, 2019</div>
 
-          <!-- NAV LINKS -->
-          <!-- <div>
-        <nav>
-          <ul>
-            <div class="row">
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <li class="col"><a href="#">LINK1</a></li>
-              <form class="form-inline">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
-                  <div class="input-group-apend">
-                    <a class="input-group-text" id="basic-addon1"></a>
-                  </div>
-                </div>
-              </form>
-              </div>        
-          </ul>
-        </nav>
-      </div> -->
-    </header>
+      <div class="col-lg-4 col-5" id="headerLogo">
+        <a class="brand" id="topLogo" href="#"></a>
+      </div>
+
+      <div class="col-7 col-lg-4 d-flex justify-content-lg-end">
+        <a class="lk-2 text-white" id="signIn" href="#">SIGN IN</a>
+        <button id="subscribe">SUBSCRIBE ></button>
+        <img src="images/burguerIcon.png" alt="Burguer Icon Top Nav Menu Newsweek Page">
+      </div>
+    </div>
+
+    <!-- NAV LINKS WHITE -->
+    <div id="whiteNavPart" class="navRow row d-inline-flex container-fluid">
+      <div id="whiteNavLinks" class="col-12 text-dark d-inline-flex">
+          <a id="exceptHere" class="topLi" href="#">U.S.</a>
+          <a class="topLi" href="#">World</a>
+          <a class="topLi" href="#">Business</a>
+          <a class="topLi" href="#">Tech & Science</a>
+          <a class="topLi" href="#">Culture</a>
+          <a class="topLi" href="#">Newsgeek</a>
+          <a class="topLi" href="#">Sports</a>
+          <a class="topLi" href="#">Health</a>
+          <a class="topLi" href="#">Opinion</a>
+          <a class="topLi" href="#">Vantage</a>
+          <form class="d-inline-flex">
+              <input type="text" placeholder="Search" aria-label="Search">
+              <label for="Search" src="images/searchIcon.png" alt="Search Icon NewsWeek Page"></label>
+          </form>
+          <div id="littleRedBox">
+            </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
   </main>
-  
+
   <!-- jQUERY & JS LINKS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
