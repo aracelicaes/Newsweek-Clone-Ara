@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap 4 Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <!-- MY STYLINGS -->
-  <link href='stylings/style.css' rel='stylesheet' type='text/css'>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>NewsWeek Clone Page Ara Camarillo</title>
+
+  <!-- CSS BOOSTRAP LINK -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  
+  <!-- MY CSS LINK -->
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <main>
-  <!-- NAV -->
-  <nav class="navbar navbar-expand-md navbar-dark" id="topNav">
-    <!-- Brand -->
-    <a class="navbar-brand" href="#" id="logo">
-    <img src="images/logoSmall.png" alt="NewsWeek Small View Logo"></a>
-    <div class="nav-item nav-link navbar-dark signInSubscribe">SIGN IN</div>
-    <div class="nav-item nav-link signInSubscribe">SUBSCRIBE</div>
-  
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <!-- Collapse Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav" id="whiteNav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">U.S</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">World</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Business</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Tech & Science</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Culture</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Newsgeek</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Sports</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Health</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Opinion</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Vantage</a>
-        </li>
-      </ul>
-    </div>
-  </nav>   
+    <!-- HEADER -->
+        <header class="page-header container-fluid">
+          <div class="row header-top">
+              <div class="d-flex justify-content-start col-6">
+                <span id="date" class="text-white">Wed, Nov 06, 2019</span>
+              </div>
+              <!-- <div class=""> -->
+                <a class="col-4 lk-2 text-white d-flex justify-content-end" href="#">SIGN IN</a>
+                <a class="lk-3 col-2 d-flex justify-content-center" href="#">SUBSCRIBE</a>
+                <div class="input-group-apend">
+                  <a class=""></a>
+                </div>
+              <!-- </div> -->
+            <!-- <div class="position-absolute">
+              <a class="brand" href="#"><img src="images/newsWeekLogoLarge.JPG"></a>
+            </div> -->
+          </div>     
 
+          <!-- NAV LINKS -->
+          <!-- <div>
+        <nav>
+          <ul>
+            <div class="row">
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <li class="col"><a href="#">LINK1</a></li>
+              <form class="form-inline">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                  <div class="input-group-apend">
+                    <a class="input-group-text" id="basic-addon1"></a>
+                  </div>
+                </div>
+              </form>
+              </div>        
+          </ul>
+        </nav>
+      </div> -->
+    </header>
   </main>
+  
+  <!-- jQUERY & JS LINKS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
 </body>
-</html> 
+
+</html>
