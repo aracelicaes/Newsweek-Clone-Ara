@@ -45,6 +45,119 @@ header .lk-2:hover {
   height: 26px;
 }
 
+/* MAIN for Now */
+
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid purple;
+  height: 200px;
+  width: 100%;
+  background-color: #9c7c7955;
+}
+
+/* FOOTER */
+
+/* TOP PART OF FOOTER */
+#topPart,
+#bottomPart {
+  width: 98%;
+  margin: auto;
+}
+
+#topPart {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+#logoCr {
+  display: flex;
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  align-items: baseline;
+  padding-left: 0;
+}
+
+#logoCr img {
+  padding-right: 15px;
+}
+
+#socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0px;
+}
+
+#socialIcons a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 30px;
+}
+
+#socialIcons a:hover {
+  background-position: center;
+}
+
+#socialIcons a:first-child {
+  background-image: url("../images/fbGrey.PNG");
+}
+
+#socialIcons a:nth-child(2) {
+  background-image: url("../images/twitterGray.PNG");
+}
+
+#socialIcons a:nth-child(3) {
+  background-image: url("../images/igGray.PNG");
+}
+
+#socialIcons a:nth-child(4) {
+  background-image: url("../images/tumblerGray.PNG");
+}
+
+#socialIcons a:last-child {
+  background-image: url("../images/linkedinGray.PNG");
+}
+
+#socialIcons a:first-child:hover {
+  background-image: url("../images/fbBlue.PNG");
+}
+
+#socialIcons a:nth-child(2):hover {
+  background-image: url("../images/twitterBlue.PNG");
+}
+
+#socialIcons a:nth-child(3):hover {
+  background-image: url("../images/igBlue.PNG");
+}
+
+#socialIcons a:nth-child(4):hover {
+  background-image: url("../images/tumblerBlue.PNG");
+}
+
+#socialIcons a:last-child:hover {
+  background-image: url("../images/linkedinBlue.PNG");
+}
+
+/* BOTTOM PART OF FOOTER */
+
+/* #bottomPart {
+  display: flex;
+} */
+
+.menu {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
 /* LARGE */
 
 @media only screen and (min-width: 992px) {
@@ -124,7 +237,7 @@ header .lk-2:hover {
     font-family: inherit;
     font-weight: normal;
     font-size: 18px;
-    background-image: url(/images/searchIcon.png);
+    background-image: url("../images/searchIcon.png");
     background-repeat: no-repeat;
     background-position: right;
   }
