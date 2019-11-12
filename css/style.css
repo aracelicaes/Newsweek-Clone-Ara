@@ -77,12 +77,12 @@ main {
   font-size: 12px;
   color: #666;
   text-transform: uppercase;
-  align-items: baseline;
   padding-left: 0;
 }
 
 #logoCr img {
   padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 #socialIcons {
@@ -149,12 +149,14 @@ main {
 /* BOTTOM PART OF FOOTER */
 
 #aboutUs {
+  margin-left: -10px;
   padding-left: 0;
 }
 
 #editions {
   padding-right: 0;
   padding-left: 0;
+  margin-left: -10px;
 }
 
 .menu {
@@ -196,6 +198,11 @@ main {
   #logoCr {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+  }
+
+  #logoCr img {
+    padding-bottom: 0;
   }
 
   #socialIcons {
@@ -315,6 +322,11 @@ main {
   #logoCr {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+  }
+
+  #logoCr img {
+    padding-bottom: 0;
   }
 
   #socialIcons {
@@ -322,5 +334,10 @@ main {
     align-items: center;
     justify-content: flex-end;
     padding-right: 0px;
+  }
+
+  #editions {
+    margin-left: 10px;
+    justify-content: flex-end;
   }
 }
