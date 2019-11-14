@@ -19,10 +19,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: inherit;
-  text-decoration: inherit;
-}
 /* TOP PART OF TOP NAV */
 
 #header-top {
@@ -173,12 +169,29 @@ a:hover {
   height: 26px;
 }
 
+body {
+  position: relative;
+  z-index: -4;
+}
+
 /* MAIN */
 
 main {
   margin-top: 50px;
   margin-bottom: 50px;
-  z-index: -88;
+  position: relative;
+  z-index: -3;
+}
+
+#insideMain {
+  position: relative;
+  z-index: -2;
+}
+
+.sectionTitle {
+  display: flex;
+  width: 95%;
+  margin: auto;
 }
 
 .sectionTitle:hover {
@@ -196,6 +209,10 @@ main {
   flex-direction: column;
   width: 95%;
   margin: auto;
+}
+
+.insideCapTitle {
+  margin-top: 15px;
 }
 
 .insideCapTitle h2 {
@@ -221,8 +238,11 @@ main {
   position: relative;
   top: 5px;
   bottom: 0;
-  left: 9px;
   z-index: 1;
+}
+
+.genre p {
+  margin-bottom: 0;
 }
 
 .figImg {
@@ -248,9 +268,9 @@ main {
 .insideOpinion {
   display: flex;
   width: 95%;
+  margin: auto auto 16px auto;
   border-bottom: 1px solid #ddd;
   padding-bottom: 4px;
-  margin-bottom: 16px;
 }
 
 .opinionText {
@@ -278,6 +298,11 @@ main {
 }
 
 /* FOOTER */
+
+footer {
+  position: relative;
+  z-index: -2;
+}
 
 /* TOP PART OF FOOTER */
 #topPart,
