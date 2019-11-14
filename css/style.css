@@ -156,7 +156,7 @@ a {
 
 #stickySignIn {
   font-weight: bolder;
-  font-size: 14px;
+  font-size: 18px;
   padding-right: 15px;text-decoration: none;
 }
 
@@ -494,6 +494,22 @@ footer {
 
 /* LARGE VIEW */
 @media only screen and (min-width: 992px) {
+
+  #theHeader {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #header-top {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #whiteNavPart {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   #signIn,
   #subscribe {
     font-size: 18px;
@@ -513,9 +529,12 @@ footer {
   #date {
     position: static;
     visibility: visible;
-    margin-top: 27px;
     height: 34px;
     align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    padding-top: 57px;
   }
 
   #signIn,
@@ -527,7 +546,12 @@ footer {
   }
 
   #headerLogo {
-    margin-top: -7px;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    align-content: center;
+    margin-right: -30px;
+    margin-top: 15px;
     height: 72px;
   }
 
