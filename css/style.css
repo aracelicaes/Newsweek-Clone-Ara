@@ -231,9 +231,8 @@ main {
   font-weight: bold;
   font-size: 17px;
   background-color: #e7e6e7;
-  width: 50px;
-  height: auto;
-  /* padding: 8px 15px 9px; */
+  width: 20%;
+  padding: 8px 15px 9px;
   text-align: center;
   position: relative;
   top: 5px;
@@ -300,6 +299,26 @@ main {
   font-size: 14px;
   font-weight: bold;
   color: #555;
+}
+
+/* LATEST NEWS */
+
+.insideLatestNews {
+  padding-bottom: 15px;
+}
+
+.latestNewsImage {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.latestNewsImage img {
+  width: 100%;
+}
+
+.latestNewsText {
+  margin-left: 0;
 }
 
 /* FOOTER */
