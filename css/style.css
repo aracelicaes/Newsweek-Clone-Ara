@@ -245,6 +245,11 @@ main {
   margin-bottom: 0;
 }
 
+.genre a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
 .figImg {
   display: flex;
   width: 95%;
@@ -331,6 +336,10 @@ footer {
   min-width: 251px;
   padding-right: 15px;
   margin-bottom: 15px;
+}
+
+#logoCr:hover {
+  cursor: pointer;
 }
 
 #socialIcons {
