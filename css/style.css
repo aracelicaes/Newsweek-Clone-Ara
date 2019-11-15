@@ -406,6 +406,60 @@ main {
   padding-left: 15px;
 }
 
+/* SIGN UP FOR NEWSLETTER BOX */
+#signUpBox {
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+  max-width: 300px;
+  margin: 0 auto 30px;
+  padding: 20px;
+}
+
+#signUpIconTitle {
+  display: flex;
+}
+
+#boxImage {
+  display: flex;
+  max-width: 29px;
+  height: 28px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
+#boxTitle {
+  font-size: 19px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+
+#boxSignUp {
+  background-color: #666;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+}
+
+#boxSignUp:hover {
+  text-decoration: none;
+  background-color: #999;
+}
+
+#boxUpdate {
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#boxUpdate:hover {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* FOOTER */
 
