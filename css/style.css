@@ -379,11 +379,12 @@ main {
 
 /* MORE STORIES */
 #moreStories {
-  width: 100%;
+  width: 95%;
+  margin: auto;
 }
 
 .insideMoreStories {
-  margin: 0;
+  margin: 0 15px;
   padding: 0;
 }
 
@@ -404,13 +405,7 @@ main {
 .moreStoriesImg img {
   width: 100%;
   float: left;
-}
-
-.moreStoriesText {
-  display: block;
-  width: 66.66%;
-  float: right;
-  padding-left: 15px;
+  margin-right: 10px;
 }
 
 /* SIGN UP FOR NEWSLETTER BOX */
