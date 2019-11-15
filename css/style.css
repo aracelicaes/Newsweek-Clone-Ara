@@ -370,6 +370,43 @@ main {
   margin-left: 0;
 }
 
+/* MORE STORIES */
+#moreStories {
+  width: 100%;
+}
+
+.insideMoreStories {
+  margin: 0;
+  padding: 0;
+}
+
+.innerMoreStories {
+  border-bottom: 1px solid #ddd;
+  padding-top: 18px;
+}
+
+#onlyHere {
+  border-top: 1px solid #ddd;
+}
+
+.moreStoriesImg {
+  display: block;
+  width: 33.33%;
+}
+
+.moreStoriesImg img {
+  width: 100%;
+  float: left;
+}
+
+.moreStoriesText {
+  display: block;
+  width: 66.66%;
+  float: right;
+  padding-left: 15px;
+}
+
+
 /* FOOTER */
 
 footer {
