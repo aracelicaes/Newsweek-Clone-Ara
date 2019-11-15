@@ -226,27 +226,34 @@ main {
   text-decoration: underline #f72210;
 }
 
-.genre {
-  color: #f72210;
-  font-weight: bold;
-  font-size: 17px;
-  background-color: #e7e6e7;
-  width: 20%;
-  padding: 8px 15px 9px;
-  text-align: center;
+.genreDiv {
   position: relative;
-  top: 5px;
+  top: -5px;
   bottom: 0;
   z-index: 1;
 }
 
-.genre p {
-  margin-bottom: 0;
+.genre {
+  display: inline-block;
+  color: #f72210;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: rgba(255,255,255,.9);
+  padding: 6px 10px 4px 10px;
+  text-align: center;
 }
 
-.genre a:hover {
+.genre:hover {
   text-decoration: none;
   color: #f72210;
+}
+
+#blue {
+  color: #3581f4;
+}
+
+#blue:hover {
+  color: #3581f4;
 }
 
 .figImg {
@@ -304,7 +311,7 @@ main {
 .cultGenre {
   display: inline-block;
   font-weight: lighter;
-  padding: 6px;
+  padding: 3px 6px;
   background-color: #c2d4d7;
   color: #272727;
   font-size: 15px;
