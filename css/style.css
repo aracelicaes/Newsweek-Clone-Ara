@@ -492,6 +492,21 @@ main {
 /* BOTTOM HALF OF PAGE */
 #bottomHalf {
   margin-top: 30px;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#inTheMagazineSectionTop {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#inTheMagazineSectionBottom  {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .insideMag {
@@ -499,8 +514,9 @@ main {
 }
 
 #andrewYang {
-  width: 95%;
-  margin: auto;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 #andrewYang img {
@@ -537,7 +553,7 @@ main {
 .secDivisor {
   display: flex;
   width: 100%;
-  margin: auto;
+  margin: 30px auto 0 auto;
   align-content: center;
   justify-content: center;
   border-bottom: 1px solid #d9d9d9;
@@ -557,13 +573,29 @@ main {
   padding-left: 5px;
 }
 
-#inMagazine {
+#inMagazine,
+#editorsPick,
+#editorsPick2 {
   display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+  padding: 0;
+}
+
+.inMagTop {
+  width: 100%;
+}
+
+.inMagTop img {
+  height: auto;
+  width: 100%;
 }
 
 .inMag {
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .inMag img {
@@ -574,6 +606,10 @@ main {
   font-size: 16px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+.inMagText p {
+  font-weight: normal;
 }
 
 .cover {
@@ -591,6 +627,31 @@ main {
 .insideGenre:hover {
   color: #f72210;
   text-decoration: none;
+}
+
+#editorsPick {
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 25px;
+}
+
+.insideBottomSecs {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.editorsSec {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.editorsSec img {
+  width: 100%;
 }
 
 /* FOOTER */
@@ -767,6 +828,38 @@ footer {
     height: 50px;
   }
 
+  /* MIDDLE HALF */
+  #andrewYang {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 90px;
+  }
+
+  #inMagazine,
+  #editorsPick,
+  #editorsPick2 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .inMagTop {
+    width: 34%;
+    padding: 0 10px;
+  }
+
+  .inMag {
+    padding: 0 10px;
+  }
+
+  #firstInMag {
+    padding: 0 10px;
+  }
+
+  #editorsPick {
+    display: flex;
+    flex-direction: row;
+  }
+
   /* FOOTER */
   /* TOP PART */
   #logoCr {
@@ -870,6 +963,32 @@ footer {
   /* STICKY NAV */
   #imSticky {
     height: 50px;
+  }
+
+  #andrewYang {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+  }
+
+  #inMagazine,
+  #editorsPick,
+  #editorsPick2 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .inMagTop {
+    width: 34%;
+    padding: 0 10px;
+  }
+
+  .inMag {
+    padding: 0 10px;
+  }
+
+  #firstInMag {
+    padding: 0 10px;
   }
 
   /* FOOTER */
