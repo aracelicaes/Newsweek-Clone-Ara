@@ -654,6 +654,11 @@ main {
   width: 100%;
 }
 
+#editorsPick2 {
+  display: flex;
+  flex-direction: column;
+}
+
 /* FOOTER */
 
 footer {
@@ -835,11 +840,16 @@ footer {
     margin-top: 90px;
   }
 
-  #inMagazine,
+  #inMagazine {
+    display: flex;
+    flex-direction: row;
+  }
+
   #editorsPick,
   #editorsPick2 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .inMagTop {
