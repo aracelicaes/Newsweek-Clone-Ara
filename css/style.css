@@ -205,8 +205,6 @@ main {
 .insideCaption {
   display: flex;
   flex-direction: column;
-  /* width: 95%;
-  margin: auto; */
 }
 
 .insideCapTitle {
@@ -257,8 +255,6 @@ main {
 
 .figImg {
   display: flex;
-  /* width: 95%;
-  margin: auto 15px -30px 15px; */
 }
 
 .figImg img {
@@ -288,12 +284,6 @@ main {
   margin: 0 auto;
 }
 
-/* FEATURE STORIES */
-/* #first {
-  padding-right: 15px;
-  padding-left: 15px;
-} */
-
 /* TOP STORY */
 #second {
   display: flex;
@@ -313,8 +303,6 @@ main {
 .inCultTravCap {
   display: flex;
   flex-direction: column;
-  /* width: 95%;
-  margin: auto; */
 }
 
 .inCulTravTitle {
@@ -355,14 +343,8 @@ main {
   color: #c2d4d7;
 }
 
-#sponsoredRight {
-
-}
-
 /* MORE STORIES */
 #moreStories {
-  /* width: 95%;
-  margin: auto; */
   order: 2;
 }
 
@@ -395,8 +377,6 @@ main {
 /* OPINION */
 .insideOpinion {
   display: flex;
-  /* width: 95%;
-  margin: auto auto 16px auto; */
   border-bottom: 1px solid #ddd;
   padding-bottom: 4px;
 }
@@ -507,6 +487,110 @@ main {
 #boxUpdate:hover {
   text-decoration: none;
   color: inherit;
+}
+
+/* BOTTOM HALF OF PAGE */
+#bottomHalf {
+  margin-top: 30px;
+}
+
+.insideMag {
+  display: flex;
+}
+
+#andrewYang {
+  width: 95%;
+  margin: auto;
+}
+
+#andrewYang img {
+  width: 100%;
+}
+
+.issue {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f72210;
+  padding: 6px 8px;
+  background-color: rgba(255,255,255,0.9);
+  position: relative;
+  top: -36px;
+}
+
+.underImg {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  color: black;
+  background-color: #f4f5f6;
+  text-align: center;
+  margin-top: -36px;
+  margin-bottom: 10px;
+}
+
+.underImg:hover {
+  background-color: #dbdcdd;
+}
+
+.secDivisor {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
+}
+
+.divisorImg img {
+  width: 29px;
+  height: 28px;
+  padding-right: 0;
+}
+
+.inTheTitle {
+  font-weight: bold;
+  font-size: 19px;
+  color: #333;
+  padding-left: 5px;
+}
+
+#inMagazine {
+  display: flex;
+}
+
+.inMag {
+  width: 80%;
+  margin: auto;
+}
+
+.inMag img {
+  width: 100%;
+}
+
+.inMagText {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cover {
+  display: inline-block;
+  background-color: #f72210;
+  padding: 0 7px;
+  color: white;
+  margin-right: 7px;
+}
+
+.insideGenre {
+  color: #f72210;
+}
+
+.insideGenre:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 /* FOOTER */
@@ -787,20 +871,6 @@ footer {
   #imSticky {
     height: 50px;
   }
-
-  /*FEATURE STORIES*/
-  /* #first {
-    padding-left: 30px;
-    padding-right: 0;
-  } */
-  
-  /* TOP STORY */
-  
-  /* OPINION */
-  /* #third {
-    padding-left: 0;
-    padding-right: 30px;
-  } */
 
   /* FOOTER */
 
