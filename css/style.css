@@ -574,6 +574,7 @@ main {
 }
 
 #inMagazine,
+#inMagazine2,
 #editorsPick,
 #editorsPick2 {
   display: flex;
@@ -657,6 +658,10 @@ main {
 #editorsPick2 {
   display: flex;
   flex-direction: column;
+}
+
+.editorSecTitle h2 {
+  margin-top: 15px;
 }
 
 /* FOOTER */
@@ -840,7 +845,8 @@ footer {
     margin-top: 90px;
   }
 
-  #inMagazine {
+  #inMagazine,
+  #inMagazine2 {
     display: flex;
     flex-direction: row;
   }
@@ -982,6 +988,7 @@ footer {
   }
 
   #inMagazine,
+  #inMagazine2,
   #editorsPick,
   #editorsPick2 {
     display: flex;
