@@ -1,0 +1,41 @@
+/* MEDIUM VIEW */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  #signIn,
+  #subscribe {
+    font-size: 18px;
+  }
+  
+  #whiteNavPart {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  /* STICKY NAV */
+  #imSticky {
+    height: 50px;
+  }
+
+  #stickySignIn,
+  #stickySubscribe {
+    font-size: 18px;
+  }
+
+  /* FOOTER */
+  /* TOP PART */
+  #logoCr {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  #logoCr img {
+    padding-bottom: 0;
+  }
+
+  #socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0px;
+  }
+}

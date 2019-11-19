@@ -1,0 +1,128 @@
+/* LARGE VIEW */
+@media only screen and (min-width: 992px) {
+
+  #theHeader {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #header-top {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #whiteNavPart {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #signIn,
+  #subscribe {
+    font-size: 18px;
+  }
+
+  #largeImg {
+    position: static;
+    visibility: visible;
+    height: 60px;
+  }
+
+  #smallImg {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  #date {
+    position: static;
+    visibility: visible;
+    height: 34px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 0;
+    margin-left: 15px;
+    padding-top: 57px;
+  }
+
+  #signIn,
+  #subscribe {
+    margin-top: 27px;
+    height: 26px;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+
+  #headerLogo {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    align-content: center;
+    margin-right: -30px;
+    margin-top: 15px;
+    height: 72px;
+  }
+
+  #topLogo {
+    width: 100%;
+    height: 100%;
+  }
+
+  #whiteNavPart {
+    position: static;
+    visibility: visible;
+  }
+
+  #burguer {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  /* STICKY NAV */
+  #imSticky {
+    height: 50px;
+  }
+
+  #stickySignIn,
+  #stickySubscribe {
+    font-size: 18px;
+  }
+
+  /*FEATURE STORIES*/
+  /* #first {
+    padding-left: 30px;
+    padding-right: 0;
+  } */
+  
+  /* TOP STORY */
+  
+  /* OPINION */
+  /* #third {
+    padding-left: 0;
+    padding-right: 30px;
+  } */
+
+  /* FOOTER */
+
+  /* FOOTER TOP PART */
+  #logoCr {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  #logoCr img {
+    padding-bottom: 0;
+  }
+
+  #socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0px;
+  }
+
+  #editions {
+    margin-left: 10px;
+    justify-content: flex-end;
+  }
+
+}

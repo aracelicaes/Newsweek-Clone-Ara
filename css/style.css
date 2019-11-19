@@ -7,16 +7,16 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 header {
   background-color: #f72210;
   margin-right: 0;
   margin-left: 0;
   z-index: 1;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 /* TOP PART OF TOP NAV */
@@ -156,7 +156,7 @@ a {
 
 #stickySignIn {
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 14px;
   padding-right: 15px;text-decoration: none;
 }
 
@@ -165,7 +165,7 @@ a {
   color: #f72210;
   border: none;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 14px;
   height: 26px;
 }
 
@@ -190,8 +190,6 @@ main {
 
 .sectionTitle {
   display: flex;
-  width: 95%;
-  margin: auto;
 }
 
 .sectionTitle:hover {
@@ -207,8 +205,8 @@ main {
 .insideCaption {
   display: flex;
   flex-direction: column;
-  width: 95%;
-  margin: auto;
+  /* width: 95%;
+  margin: auto; */
 }
 
 .insideCapTitle {
@@ -227,10 +225,7 @@ main {
 }
 
 .genreDiv {
-  position: relative;
-  top: -5px;
-  bottom: 0;
-  z-index: 1;
+  margin-top: -35px;
 }
 
 .genre {
@@ -241,6 +236,10 @@ main {
   background-color: rgba(255,255,255,.9);
   padding: 6px 10px 4px 10px;
   text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .genre:hover {
@@ -248,41 +247,74 @@ main {
   color: #f72210;
 }
 
-#blue {
+.blue {
   color: #3581f4;
 }
 
-#blue:hover {
+.blue:hover {
   color: #3581f4;
 }
 
 .figImg {
   display: flex;
-  width: 95%;
-  height: auto;
-  margin: auto auto -30px auto;
+  /* width: 95%;
+  margin: auto 15px -30px 15px; */
 }
 
 .figImg img {
   width: 100%;
 }
 
-/* FEATURE STORIES */
-#first {
-  padding-right: 15px;
-  padding-left: 15px;
+#featureStories,
+#opinion,
+#cultureTravel,
+#moreStories {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
 }
 
 /* TOP STORY */
+#topStory a h4 {
+  width: 95%;
+  margin: auto;
+}
+
+#topStory .insideTopStory {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* FEATURE STORIES */
+/* #first {
+  padding-right: 15px;
+  padding-left: 15px;
+} */
+
+/* TOP STORY */
+#second {
+  display: flex;
+  flex-direction: column;
+}
+
+#topStory {
+  order: 1;
+}
 
 /* CULTURE & TRAVEL */
-
+#cultureTravel {
+  order: 3;
+  margin-top: 25px;
+}
 
 .inCultTravCap {
   display: flex;
   flex-direction: column;
-  width: 95%;
-  margin: auto;
+  /* width: 95%;
+  margin: auto; */
 }
 
 .inCulTravTitle {
@@ -323,12 +355,48 @@ main {
   color: #c2d4d7;
 }
 
+#sponsoredRight {
+
+}
+
+/* MORE STORIES */
+#moreStories {
+  /* width: 95%;
+  margin: auto; */
+  order: 2;
+}
+
+.insideMoreStories {
+  margin: 0;
+  padding: 0;
+}
+
+.innerMoreStories {
+  border-bottom: 1px solid #ddd;
+  padding-top: 18px;
+}
+
+#onlyHere {
+  border-top: 1px solid #ddd;
+}
+
+.moreStoriesImg {
+  display: block;
+  width: 33.33%;
+}
+
+.moreStoriesImg img {
+  width: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
 
 /* OPINION */
 .insideOpinion {
   display: flex;
-  width: 95%;
-  margin: auto auto 16px auto;
+  /* width: 95%;
+  margin: auto auto 16px auto; */
   border-bottom: 1px solid #ddd;
   padding-bottom: 4px;
 }
@@ -358,6 +426,15 @@ main {
 }
 
 /* LATEST NEWS */
+#latestNews {
+  margin-top: 20px;
+}
+
+.insideLatestNews {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
 
 .insideLatestNews {
   padding-bottom: 15px;
@@ -375,37 +452,6 @@ main {
 
 .latestNewsText {
   margin-left: 0;
-}
-
-/* MORE STORIES */
-#moreStories {
-  width: 95%;
-  margin: auto;
-}
-
-.insideMoreStories {
-  margin: 0 15px;
-  padding: 0;
-}
-
-.innerMoreStories {
-  border-bottom: 1px solid #ddd;
-  padding-top: 18px;
-}
-
-#onlyHere {
-  border-top: 1px solid #ddd;
-}
-
-.moreStoriesImg {
-  display: block;
-  width: 33.33%;
-}
-
-.moreStoriesImg img {
-  width: 100%;
-  float: left;
-  margin-right: 10px;
 }
 
 /* SIGN UP FOR NEWSLETTER BOX */
@@ -609,9 +655,11 @@ footer {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 465px) and (max-width: 766px) {
+@media only screen and (min-width: 432px) and (max-width: 766px) {
   #signIn,
-  #subscribe {
+  #subscribe,
+  #stickySignIn,
+  #stickySubscribe {
     font-size: 18px;
   }
 }
@@ -619,7 +667,9 @@ footer {
 /* MEDIUM VIEW */
 @media only screen and (min-width: 767px) and (max-width: 991px) {
   #signIn,
-  #subscribe {
+  #subscribe,
+  #stickySignIn,
+  #stickySubscribe {
     font-size: 18px;
   }
   
@@ -672,7 +722,9 @@ footer {
   }
 
   #signIn,
-  #subscribe {
+  #subscribe,
+  #stickySignIn,
+  #stickySubscribe {
     font-size: 18px;
   }
 
@@ -737,18 +789,18 @@ footer {
   }
 
   /*FEATURE STORIES*/
-  #first {
+  /* #first {
     padding-left: 30px;
     padding-right: 0;
-  }
+  } */
   
   /* TOP STORY */
   
   /* OPINION */
-  #third {
+  /* #third {
     padding-left: 0;
     padding-right: 30px;
-  }
+  } */
 
   /* FOOTER */
 
