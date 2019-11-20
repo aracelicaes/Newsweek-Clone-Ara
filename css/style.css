@@ -593,7 +593,7 @@ main {
 #inMagazine2,
 #editorsPick,
 #editorsPick2,
-#featuredSlides {
+.featuredSlides {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -1085,7 +1085,7 @@ footer {
 
   #editorsPick,
   #editorsPick2,
-  #featuredSlides {
+  .featuredSlides {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1111,6 +1111,17 @@ footer {
 
   .theVeryLastSec {
     margin-top: -15px;
+  }
+
+  .insideTheVeryLast,
+  .insideTheUltimateVeryLast {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .insideTheVeryLastSec,
+  .insideTheUltimateVeryLastSec {
+    text-align: left;
   }
 
   /* FOOTER */
@@ -1257,7 +1268,7 @@ footer {
     flex-direction: row;
   }
 
-  #featuredSlides {
+  .featuredSlides {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1278,6 +1289,17 @@ footer {
 
   .theVeryLastSec {
     margin-top: -15px;
+  }
+
+  .insideTheVeryLast,
+  .insideTheUltimateVeryLast {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .insideTheVeryLastSec,
+  .insideTheUltimateVeryLastSec {
+    text-align: left;
   }
 
   /* FOOTER */
