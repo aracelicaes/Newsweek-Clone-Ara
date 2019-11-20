@@ -576,7 +576,8 @@ main {
 #inMagazine,
 #inMagazine2,
 #editorsPick,
-#editorsPick2 {
+#editorsPick2,
+#featuredSlides {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -662,6 +663,18 @@ main {
 
 .editorSecTitle h2 {
   margin-top: 15px;
+}
+
+.numberOfSlides {
+  display: inline-block;
+  position: relative;
+  top: -50px;
+  bottom: 0;
+  margin-bottom: -30px;
+}
+
+.featuredSlidesTitle h2 {
+  margin-top: -30px;
 }
 
 /* FOOTER */
@@ -852,7 +865,8 @@ footer {
   }
 
   #editorsPick,
-  #editorsPick2 {
+  #editorsPick2,
+  #featuredSlides {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -993,6 +1007,12 @@ footer {
   #editorsPick2 {
     display: flex;
     flex-direction: row;
+  }
+
+  #featuredSlides {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .inMagTop {
