@@ -562,6 +562,13 @@ main {
   max-height: 90px;
 }
 
+.insideTheUltimateVeryLastSecImgs img {
+  height: 160px;
+  width: 100vw;
+  max-width: 100%;
+  min-width: 313px;
+}
+
 #andrewYang img {
   width: 100%;
 }
@@ -854,13 +861,6 @@ main {
 .insideTheUltimateVeryLastSec {
   border: 1px solid #ebebeb;
   padding: 40px;
-}
-
-.insideTheUltimateVeryLastSecImgs img {
-  height: 160px;
-  width: 100vw;
-  max-width: 100%;
-  min-width: 313px;
 }
 
 /* FOOTER */
