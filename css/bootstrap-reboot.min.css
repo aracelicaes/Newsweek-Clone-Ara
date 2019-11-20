@@ -117,6 +117,7 @@ textarea { overflow: auto; resize: vertical; }
 fieldset { min-width: 0; padding: 0; margin: 0; border: 0; }
 legend { display: block; width: 100%; max-width: 100%; padding: 0; margin-bottom: 0.5rem; font-size: 1.5rem; line-height: inherit; color: inherit; white-space: normal; }
 progress { vertical-align: baseline; }
+
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button { height: auto; }
 [type=search] { outline-offset: -2px; -webkit-appearance: none; }
