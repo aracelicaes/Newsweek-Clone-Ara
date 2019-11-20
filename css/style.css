@@ -183,9 +183,23 @@ main {
   z-index: -3;
 }
 
+#first,
+#second,
+#third {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 #insideMain {
   position: relative;
   z-index: -2;
+}
+
+.addingPadding {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .sectionTitle {
@@ -298,6 +312,8 @@ main {
 #cultureTravel {
   order: 3;
   margin-top: 25px;
+  background-color: #f4f5f7;
+  padding: 10px 15px;
 }
 
 .inCultTravCap {
@@ -307,7 +323,7 @@ main {
 
 .inCulTravTitle {
   margin-top: 15px;
-  padding-top: 25px;
+  padding-top: 0;
 }
 
 .inCulTravTitle:hover {
@@ -585,6 +601,11 @@ main {
   padding: 0;
 }
 
+.removingPadding {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .inMagTop {
   width: 100%;
 }
@@ -852,6 +873,32 @@ footer {
   }
 
   /* MIDDLE HALF */
+  .addingPadding {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .sectionTitle h4 {
+    font-size: 18px;
+  }
+
+  #third {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #opinion {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  }
+
+  #topStory a h4 {
+    margin-bottom: 8px;
+  }
+
   #andrewYang {
     padding-left: 10px;
     padding-right: 10px;
@@ -993,6 +1040,31 @@ footer {
   /* STICKY NAV */
   #imSticky {
     height: 50px;
+  }
+
+  /* MAIN */
+  #first,
+  #third {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #second {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  #cultureTravel {
+    order: 2;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  #moreStories {
+    order: 3;
+    margin-top: 15px;
   }
 
   #andrewYang {
