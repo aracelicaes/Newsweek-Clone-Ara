@@ -754,7 +754,8 @@ main {
 .hereLast {
   margin-right: 0;
   margin-left: 0;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 #preFooter {
@@ -839,6 +840,7 @@ main {
 .last {
   margin-top: 20px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .insideTheUltimateVeryLast {
@@ -854,14 +856,11 @@ main {
   padding: 40px;
 }
 
-.insideTheUltimateVeryLastSecImgs {
-  background-image: url("../images/starting5.png");
-  min-width: 313px;
-  max-width: 579px;
+.insideTheUltimateVeryLastSecImgs img {
   height: 160px;
-  width: 579px;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100vw;
+  max-width: 100%;
+  min-width: 313px;
 }
 
 /* FOOTER */
@@ -1118,6 +1117,12 @@ footer {
     text-align: left;
   }
 
+  .insideTheUltimateVeryLastSecImgs img {
+    height: 265px;
+    width: 191px;
+    min-width: 191px;
+  }
+
   /* FOOTER */
 
   /* TOP PART */
@@ -1265,6 +1270,11 @@ footer {
     flex-wrap: wrap;
   }
 
+  #prefooter {
+    display: flex;
+    flex-direction: row;
+  }
+
   .inMagTop {
     width: 34%;
     padding: 0 10px;
@@ -1291,6 +1301,12 @@ footer {
   .insideTheVeryLastSec,
   .insideTheUltimateVeryLastSec {
     text-align: left;
+  }
+
+  .insideTheUltimateVeryLastSecImgs img {
+    height: 290px;
+    width: 191px;
+    min-width: 191px;
   }
 
   /* FOOTER */
