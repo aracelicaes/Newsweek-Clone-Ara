@@ -51,7 +51,8 @@ header {
 #signIn {
   font-weight: bolder;
   font-size: 14px;
-  padding-right: 15px;text-decoration: none;
+  padding-right: 15px;
+  text-decoration: none;
 }
 
 #subscribe {
@@ -157,7 +158,8 @@ header {
 #stickySignIn {
   font-weight: bolder;
   font-size: 14px;
-  padding-right: 15px;text-decoration: none;
+  padding-right: 15px;
+  text-decoration: none;
 }
 
 #stickySubscribe {
@@ -212,7 +214,7 @@ main {
 
 .sectionTitle h4 {
   font-weight: bold;
-  color:rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, 0.4);
   font-size: 16px;
 }
 
@@ -245,7 +247,7 @@ main {
   color: #f72210;
   font-weight: bold;
   font-size: 17px;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 6px 10px 4px 10px;
   text-align: center;
   position: relative;
@@ -520,7 +522,7 @@ main {
   padding-left: 0;
 }
 
-#inTheMagazineSectionBottom  {
+#inTheMagazineSectionBottom {
   padding-right: 0;
   padding-left: 0;
 }
@@ -545,7 +547,7 @@ main {
   font-size: 16px;
   color: #f72210;
   padding: 6px 8px;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: relative;
   top: -36px;
 }
@@ -654,7 +656,7 @@ main {
 
 #editorsPick {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   width: 100%;
   padding: 0;
   margin-left: 0;
@@ -999,7 +1001,7 @@ footer {
 }
 
 .menu li {
-  border-right: 1px solid #d9d9d9;;
+  border-right: 1px solid #d9d9d9;
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -1033,7 +1035,7 @@ footer {
   #stickySubscribe {
     font-size: 18px;
   }
-  
+
   #whiteNavPart {
     position: absolute;
     visibility: hidden;
@@ -1062,9 +1064,9 @@ footer {
   }
 
   #opinion {
-  width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   #topStory a h4 {
@@ -1090,7 +1092,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .inMagTop {
     width: 34%;
     padding: 0 10px;
@@ -1125,6 +1127,7 @@ footer {
   }
 
   /* FOOTER */
+
   /* TOP PART */
   #logoCr {
     display: flex;
@@ -1140,13 +1143,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 0px;
+    padding-right: 0;
   }
 }
 
 /* LARGE VIEW */
 @media only screen and (min-width: 992px) {
-
   #theHeader {
     padding-right: 0;
     padding-left: 0;
@@ -1273,7 +1275,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .inMagTop {
     width: 34%;
     padding: 0 10px;
@@ -1319,12 +1321,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 0px;
+    padding-right: 0;
   }
 
   #editions {
     margin-left: 10px;
     justify-content: flex-end;
   }
-
 }
