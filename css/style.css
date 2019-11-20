@@ -717,11 +717,15 @@ main {
 }
 
 .lastSec {
-  border-bottom: 1px solid #d9d9d9;
   margin-left: 0;
   margin-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.lastSecBorderHere {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .lastSecImg {
@@ -742,6 +746,10 @@ main {
 
 .paddTopHere {
   padding-top: 15px;
+}
+
+.preFooterDivisor {
+  border-bottom: 3px solid #d9d9d9;
 }
 
 /* FOOTER */
