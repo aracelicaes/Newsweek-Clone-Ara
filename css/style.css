@@ -842,12 +842,16 @@ main {
 }
 
 .last {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .insideTheUltimateVeryLast {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .insideTheUltimateVeryLastSec {
@@ -855,14 +859,16 @@ main {
   padding: 40px;
 }
 
+
 .insideTheUltimateVeryLastSecImgs {
   background-image: url("../images/starting5.png");
-  width: 515px;
+  min-width: 313px;
+  max-width: 579px;
   height: 160px;
+  width: 579px;
   background-repeat: no-repeat;
+  background-position: center;
 }
-
-
 
 /* FOOTER */
 
