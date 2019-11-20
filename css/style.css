@@ -288,6 +288,16 @@ main {
 }
 
 /* TOP STORY */
+.opinionTitle h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.opinionTitle h4:hover {
+  color: #f72210;
+}
+
 #topStory a h4 {
   width: 95%;
   margin: auto;
@@ -391,7 +401,6 @@ main {
   margin-right: 10px;
 }
 
-
 /* OPINION */
 .insideOpinion {
   display: flex;
@@ -405,16 +414,6 @@ main {
 
 .opinionTitle:hover {
   text-decoration: none;
-}
-
-.opinionTitle h4 {
-  color: black;
-  font-weight: bold;
-  font-size: 17px;
-}
-
-.opinionTitle h4:hover {
-  color: #f72210;
 }
 
 .opinionSub {
@@ -537,6 +536,21 @@ main {
   padding-left: 0;
 }
 
+.divisorImg img {
+  width: 29px;
+  height: 28px;
+  padding-right: 0;
+}
+
+.inMagTop img {
+  height: auto;
+  width: 100%;
+}
+
+.inMag img {
+  width: 100%;
+}
+
 #andrewYang img {
   width: 100%;
 }
@@ -578,12 +592,6 @@ main {
   padding-bottom: 8px;
 }
 
-.divisorImg img {
-  width: 29px;
-  height: 28px;
-  padding-right: 0;
-}
-
 .inTheTitle {
   font-weight: bold;
   font-size: 19px;
@@ -612,19 +620,10 @@ main {
   width: 100%;
 }
 
-.inMagTop img {
-  height: auto;
-  width: 100%;
-}
-
 .inMag {
   width: 100%;
   padding-right: 0;
   padding-left: 0;
-}
-
-.inMag img {
-  width: 100%;
 }
 
 .inMagText {
@@ -860,7 +859,6 @@ main {
   border: 1px solid #ebebeb;
   padding: 40px;
 }
-
 
 .insideTheUltimateVeryLastSecImgs {
   background-image: url("../images/starting5.png");
