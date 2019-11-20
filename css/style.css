@@ -5,6 +5,8 @@ body {
   margin: auto;
   overflow-x: hidden;
   font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  z-index: -4;
 }
 
 a {
@@ -171,11 +173,6 @@ header {
   height: 26px;
 }
 
-body {
-  position: relative;
-  z-index: -4;
-}
-
 /* MAIN */
 
 main {
@@ -292,6 +289,15 @@ main {
   color: black;
   font-weight: bold;
   font-size: 17px;
+}
+
+.lastGenres h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.theVeryLastGenres h4 {
+  font-size: 18px;
 }
 
 .opinionTitle h4:hover {
@@ -431,9 +437,6 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 15px;
-}
-
-.insideLatestNews {
   padding-bottom: 15px;
 }
 
@@ -549,6 +552,14 @@ main {
 
 .inMag img {
   width: 100%;
+}
+
+.editorsSec img {
+  width: 100%;
+}
+
+.lastSecImg img {
+  max-height: 90px;
 }
 
 #andrewYang img {
@@ -674,10 +685,6 @@ main {
   padding-right: 0;
 }
 
-.editorsSec img {
-  width: 100%;
-}
-
 #editorsPick2 {
   display: flex;
   flex-direction: column;
@@ -708,11 +715,6 @@ main {
   color: #f72210;
 }
 
-.lastGenres h4 {
-  font-weight: bold;
-  font-size: 22px;
-}
-
 .theVeryLastSec {
   margin-top: 15px;
 }
@@ -736,10 +738,6 @@ main {
   padding-right: 15px;
 }
 
-.lastSecImg img {
-  max-height: 90px;
-}
-
 .lastSecText {
   padding-left: 0;
   padding-right: 0;
@@ -757,10 +755,6 @@ main {
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 80px;
-}
-
-.theVeryLastGenres h4 {
-  font-size: 18px;
 }
 
 #preFooter {
@@ -918,6 +912,18 @@ footer {
   margin-bottom: 12px;
 }
 
+.menu li a {
+  font-weight: normal;
+  color: #666;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.menu li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 #socialIcons a {
   display: inline-block;
   width: 25px;
@@ -992,28 +998,16 @@ footer {
   padding-left: 0;
 }
 
-#editions li:first-child {
-  border-right: none;
-  font-weight: bold;
-  color: #666;
-}
-
 .menu li {
   border-right: 1px solid #d9d9d9;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-.menu li a {
-  font-weight: normal;
+#editions li:first-child {
+  border-right: none;
+  font-weight: bold;
   color: #666;
-  line-height: 30px;
-  font-size: 14px;
-}
-
-.menu li a:hover {
-  color: black;
-  text-decoration: none;
 }
 
 @media only screen and (min-width: 432px) and (max-width: 766px) {
@@ -1160,6 +1154,8 @@ footer {
   #whiteNavPart {
     margin-left: 0;
     margin-right: 0;
+    position: static;
+    visibility: visible;
   }
 
   #signIn,
@@ -1212,11 +1208,6 @@ footer {
   #topLogo {
     width: 100%;
     height: 100%;
-  }
-
-  #whiteNavPart {
-    position: static;
-    visibility: visible;
   }
 
   #burguer {
