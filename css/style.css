@@ -752,9 +752,117 @@ main {
   border-bottom: 3px solid #d9d9d9;
 }
 
+.hereLast {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 80px;
+}
+
 .theVeryLastGenres h4 {
   font-size: 18px;
 }
+
+#preFooter {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.almostLast,
+.last {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.insideTheVeryLast {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #f4f5f6;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.insideTheVeryLastSecImgs {
+  display: flex;
+}
+
+#imageOne,
+#imageTwo {
+  width: 170px;
+  height: 228px;
+}
+
+#imageOne img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#imageTwo {
+  position: relative;
+  top: 13px;
+  left: -80px;
+  right: 0;
+  margin-right: -45px;
+}
+
+#imageTwo img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.theVeryLastTitle {
+  font-weight: bold;
+  line-height: 28px;
+  margin-top: 15px;
+}
+
+.theVeryLastP {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.theVeryLastButton {
+  display: inline-block;
+  background-color: #f72210;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.theVeryLastButton:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #de1f0e;
+}
+
+.last {
+  margin-top: 10px;
+}
+
+.insideTheUltimateVeryLast {
+  display: flex;
+  flex-direction: column;
+}
+
+.insideTheUltimateVeryLastSec {
+  border: 1px solid #ebebeb;
+  padding: 40px;
+}
+
+.insideTheUltimateVeryLastSecImgs {
+  background-image: url("../images/starting5.png");
+  width: 515px;
+  height: 160px;
+  background-repeat: no-repeat;
+}
+
+
 
 /* FOOTER */
 
