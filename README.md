@@ -9,7 +9,7 @@
 
 ## About the project
 
-![Screenshot Image](images/screenShotNewsWeek.jpg)
+<div><img src= "images/screenShotNewsWeek.jpg"></div>
 
 This project was built by Araceli Camarillo build for the 7th and SOLO project in the Microverse program. It is built with HTML, CSS and Bootstrap using solo programming. This page is a clone for an the landing Home Page of NewsWeek for the Microverse solo project. The original version can be found at: https://www.newsweek.com/
 
